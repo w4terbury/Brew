@@ -24,7 +24,6 @@ fi
 # Update Homebrew and Upgrade any already-installed formulae
 brew update
 brew upgrade
-brew upgrade --cask
 brew cleanup
 
 # Define an array of packages to install using Homebrew.
@@ -150,5 +149,4 @@ read
 # Update and clean up again for safe measure
 brew update
 brew upgrade
-brew upgrade --cask
 brew cleanup
